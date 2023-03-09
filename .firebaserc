@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "chat-application-ae308"
+  },
+  "targets": {
+    "chat-application-ae308": {
+      "hosting": {
+        "chat-application": [
+          "chat-application-ae308"
+        ]
+      }
+    }
   }
 }
