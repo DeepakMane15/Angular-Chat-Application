@@ -1,0 +1,77 @@
+:host .mat-icon {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.logo {
+  text-align: center;
+  padding: 2.6rem 1rem;
+}
+.logo img {
+  width: 200px;
+}
+.mat-divider {
+  border-top-width: 2px;
+  border-color: white;
+}
+.mat-list-item {
+  color: #ffffff !important;
+  font-size: 0.8rem;
+  height: 44px !important;
+  margin-bottom: 4px;
+}
+.mat-list-item:hover {
+  color: #fff  !important;
+}
+.mat-list-item ::ng-deep .mat-list-item-content {
+  border-radius: 5px;
+  margin: 0 8px;
+}
+.mat-list-item ::ng-deep .mat-list-item-content:hover {
+  background: #2c3344 !important;
+}
+.list-item-active {
+  color: #f2f5f7 !important;
+}
+.list-item-active ::ng-deep .mat-list-item-content {
+  background: #2c3344 !important;
+}
+.list-item-active ::ng-deep .mat-list-item-content:hover {
+  background: #2c3344 !important;
+}
+.mat-subheader {
+  color: #818cf8;
+  font-size: 0.6rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.name{
+  color:#fff;
+  font-size: 15px;
+}
+.recent-message {
+  font-size: 14px;
+  color: #888;
+  margin-top: 4px;
+}
+mat-card-content div {
+  display: flex;
+  align-items: center;
+}
+
+mat-card-content img {
+  margin-right: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+mat-card-content div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.mat-mdc-card{
+  background-color: none !important;
+}

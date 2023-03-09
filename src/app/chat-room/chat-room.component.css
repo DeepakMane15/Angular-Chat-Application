@@ -1,0 +1,48 @@
+#chat2 .form-control {
+  border-color: transparent;
+  }
+
+  #chat2 .form-control:focus {
+  border-color: transparent;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+  .receiver{
+    border: 1px solid #313235;
+    /* width: 60%; */
+    max-width: 60%;
+    border-radius: 0%;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    background-color: #FFF;
+    border-radius: 1.125rem 1.125rem 1.125rem 0;
+    min-height: 2.25rem;
+    font-size: 28px;
+    font-family: sans-serif;
+    width: fit-content;
+  }
+.sender{
+  right: 0;
+    position: fixed !important;
+    float: right;
+    border-radius: 1.125rem 1.125rem 0 1.125rem;
+    color: #fff;
+    font-size: 28px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    background-color: #313235;
+    border: 1px solid #313235;
+    min-height: 2.25rem;
+    width: fit-content;
+    max-width: 60%;
+}

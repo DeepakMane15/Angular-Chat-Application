@@ -1,0 +1,24 @@
+<mat-nav-list>
+  <div class="logo py-4">
+    <img src="./assets/logo.svg" alt="Company Logo" />
+  </div>
+  <mat-divider></mat-divider>
+  <h2 matSubheader class="mt-2 name">Chats</h2>
+<div>
+  <div class="form-group" >
+    <input type="email" class="form-control" name="message"  placeholder="search">
+   </div>
+</div>
+  <mat-card *ngFor="let c of allUsers" style="cursor:pointer; background-color: #0f172a !important;">
+    <mat-card-content>
+      <div>
+        <!-- <img mat-card-avatar [src]=""> -->
+        <div>
+          <h2 mat-card-title class="name">{{ c.value.name }}</h2>
+          <h3 mat-card-subtitle class="name">{{ c.value.email }}</h3>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+</mat-nav-list>
